@@ -22,5 +22,7 @@ Unfortunately, this hope was not born out as the classifier performed at similar
 
 After this initial poking around with the texts, I decided to see if I could discern anything interesting by looking at changes over time. While I nothing terribly interesting emerged from a comparison of top and bottom word values across decades (see Jupyter Notebook), I did find an interesting downward trend in the frequency of cigarette references over time.
 
-To carry out this investigation, I created a pandas dataframe that included the full text of all 240 novels and merged this with another dataframe that contained the corresponding metadata. I then wrote a script to go through the text of each novel and tally up the number of times that the term ‘cigarette’ or ‘cigarettes’ was mentioned, and add this to a new column in the dataframe. This allowed me to plot changes in how frequently these terms were used over the years.
-Here we see some interesting patterns. Looking at both the mean and median counts of ‘cigarette’ and ‘cigarettes’, we see a clear decrease in the usage of the terms over the time period covered.
+To carry out this investigation, I created a pandas dataframe that included the full text of all 240 novels and merged this with another dataframe that contained the corresponding metadata. I then wrote a script to go through the text of each novel and tally up the number of times that the term ‘cigarette’ or ‘cigarettes’ was mentioned, and add this to a new column in the dataframe. This allowed me to plot changes in how frequently these terms were used over the years. Here we see some interesting patterns. Looking at both the mean and median counts of ‘cigarette’ and ‘cigarettes’, we see a clear decrease in the usage of the terms over the time period covered.
+
+![median cigarette](https://github.com/harmoniant/booksthatsmoke/blob/gh-pages/mean_cig_count.png
+    "median cigarette")
